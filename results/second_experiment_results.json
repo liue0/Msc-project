@@ -1,0 +1,13 @@
+[
+    {
+        "model_name": "Baseline 2 (BERT Content-Based) - Fair Sampled",
+        "RMSE": 0.7428655373954467,
+        "MAE": 0.42714913042358277,
+        "Precision_10": 0.02160000000000003,
+        "Recall_10": 0.10618253968253967,
+        "NDCG_10": 0.06005304538126534,
+        "epochs": 3,
+        "eval_users": 1000,
+        "Notes": "Evaluated via Target+99 Negatives on 1000 sampled users using Item Profiling"
+    }
+]
