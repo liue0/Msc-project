@@ -1,0 +1,23 @@
+[
+    {
+        "model_name": "Attention-Based Hybrid Model - Fair Sampled",
+        "RMSE": 0.7549817741705296,
+        "MAE": 0.42506902035338934,
+        "Precision_10": 0.021300000000000017,
+        "Recall_10": 0.10691507936507931,
+        "NDCG_10": 0.061456208634829625,
+        "epochs": 3,
+        "eval_users": 1000,
+        "avg_cf_grads": [
+            0.03855097760775677,
+            0.03532175271013755,
+            0.040240657670701244
+        ],
+        "avg_text_grads": [
+            1.001650636101186,
+            0.8428726200377963,
+            0.8886586633203877
+        ],
+        "architecture": "Cross-Attention Dynamic Alignment"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model_name": "Baseline 1 (Matrix Factorization) - Full Ranking",
+        "RMSE": 1.2216873878999897,
+        "MAE": 0.8997550087819753,
+        "Precision_10": 0.0012546638378813373,
+        "Recall_10": 0.007252073265497802,
+        "NDCG_10": 0.004929868053652459,
+        "epochs": 30,
+        "eval_users": 27338
+    },
+    {
+        "model_name": "Baseline 1 (Matrix Factorization) - Fair Sampled",
+        "RMSE": 1.2216873878999897,
+        "MAE": 0.8997550087819753,
+        "Precision_10": 0.02940000000000009,
+        "Recall_10": 0.15858095238095238,
+        "NDCG_10": 0.10016126862398067,
+        "epochs": 30,
+        "eval_users": 1000,
+        "Notes": "Evaluated via Target+99 Negatives on 1000 sampled users"
+    }
+]
